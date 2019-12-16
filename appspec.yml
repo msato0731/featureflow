@@ -5,6 +5,6 @@ files:
     destination: /www/release/deploy
 hooks:
   AfterInstall:
-    - location: scripts/change_symbolic_link.sh
+    - location: scripts/release.sh
       timeout: 300
       runas: root 
