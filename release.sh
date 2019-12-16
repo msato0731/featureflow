@@ -27,7 +27,7 @@ cd $BASE_DIR/release
 `ls -rt $BASE_DIR/release/ | head -n -5 | xargs rm -rf`
 # composer install
 cd $RELEASE_DIR
-composer install
+#composer install
 ln -nsf $RELEASE_DIR $BASE_DIR/$DOC_ROOT
 # キャッシュファイル削除
 rm -f $TMP_DIR/app/tmp/cache/assets/css/pc/*
