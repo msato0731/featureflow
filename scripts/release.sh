@@ -12,4 +12,5 @@ DOC_ROOT="levtech_career_test"
 #        デプロイスクリプト
 # =======================
 set -eux
-mv /www/release/deploy /www/release/$RELEASE_DATE
+mv /www/release/deploy $RELEASE_DIR
+ln -nsf $RELEASE_DIR $BASE_DIR/$DOC_ROOT
