@@ -14,3 +14,4 @@ DOC_ROOT="levtech_career_test"
 set -eux
 mv /www/release/deploy $RELEASE_DIR
 ln -nsf $RELEASE_DIR $BASE_DIR/$DOC_ROOT
+echo "test"
