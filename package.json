@@ -9,7 +9,7 @@
     "gulp-stream": "^0.0.2",
     "hard-source-webpack-plugin": "^0.13.1",
     "historykana": "^1.0.4",
-    "jquery": "^2.1.1",
+    "jquery": "^3.5.0",
     "jquery-validation": "^1.16.0",
     "kana-text-extension": "^1.0.0",
     "materialize-css": "^0.98.1",
